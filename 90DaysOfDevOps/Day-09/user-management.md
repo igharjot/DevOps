@@ -6,13 +6,17 @@
 - sudo useradd tokyo
 - sudo useradd berlin
 - sudo useradd professor
--
+- cat /etc/passwd
 
+<img width="1249" height="729" alt="image" src="https://github.com/user-attachments/assets/27a392e4-a6a8-4a59-80d7-771967277fac" />
 
 
 ---
 
 ## Task 2: Create Groups
+
+###Commands used are-
+-
 
 
 
