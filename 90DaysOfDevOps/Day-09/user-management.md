@@ -9,7 +9,7 @@
 - cat /etc/passwd
 
 <img width="1249" height="729" alt="image" src="https://github.com/user-attachments/assets/27a392e4-a6a8-4a59-80d7-771967277fac" />
-
+<img width="847" height="321" alt="image" src="https://github.com/user-attachments/assets/8351743d-e261-4d98-8296-33d0069ded82" />
 
 ---
 
@@ -28,11 +28,14 @@
 ## Task 3: Assign to Groups
 
 ### Commands used are-
-- 
-- 
-- 
--
+- sudo gpasswd -a tokyo developers
+- sudo gpasswd -a berlin developers
+- sudo gpasswd -a berlin admins
+- sudo gpasswd -a professor admins
+- cat /etc/group
 
+<img width="824" height="286" alt="image" src="https://github.com/user-attachments/assets/1ee32dcc-8c5f-408d-9540-b3003b1b2952" />
+<img width="805" height="314" alt="image" src="https://github.com/user-attachments/assets/09370b45-0ef5-4ecc-b6ca-6db47e413575" />
 
 
 ---
