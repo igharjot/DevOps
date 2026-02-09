@@ -43,11 +43,14 @@
 ## Task 4: Shared Directory
 
 ### Commands used are-
-- 
-- 
-- 
--
+- sudo mkdir /opt/dev-project
+- sudo chown root:developer /opt/dev-project
+- sudo chmod 775 dev-project
+- su tokyo
+- su berlin
+- ls -l
 
+<img width="880" height="731" alt="image" src="https://github.com/user-attachments/assets/2a826155-69c1-482d-8b0e-ba43d989a32b" />
 
 
 ---
@@ -55,9 +58,18 @@
 ## Task 5: Team Workspace
 
 ### Commands used are-
-- 
-- 
-- 
--
+- sudo useradd -m nairobi
+- sudo groupadd project-team
+- cat /etc/group
+- cat /etc/passwd
+- sudo usermod -aG project-team tokyo
+- sudo usermod -aG project-team nairobi
+- sudo mkdir /opt/team-workspace
+- sudo chown root:team-project /opt/team-workspace
+- ls -l
+- sudo chmod 775 team-workspace
+
+<img width="927" height="655" alt="image" src="https://github.com/user-attachments/assets/5a295cc8-d76d-419c-8183-3ac7bd0dbfa7" />
+
 
 ---
