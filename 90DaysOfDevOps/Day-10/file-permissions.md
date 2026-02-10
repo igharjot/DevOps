@@ -2,17 +2,18 @@
 
 ## Challenge Tasks
 
-### Task 1: Create Files (10 minutes)
+### Task 1: Create Files
 
 1. Create empty file `devops.txt` using `touch`
 2. Create `notes.txt` with some content using `cat` or `echo`
 3. Create `script.sh` using `vim` with content: `echo "Hello DevOps"`
 
+<img width="874" height="365" alt="image" src="https://github.com/user-attachments/assets/0f1e92ac-6d6c-4958-9636-64b027bbe244" />
 
 
 ---
 
-### Task 2: Read Files (10 minutes)
+### Task 2: Read Files
 
 1. Read `notes.txt` using `cat`
 2. View `script.sh` in vim read-only mode
@@ -23,7 +24,7 @@
 
 ---
 
-### Task 3: Understand Permissions (10 minutes)
+### Task 3: Understand Permissions
 
 Format: `rwxrwxrwx` (owner-group-others)
 - `r` = read (4), `w` = write (2), `x` = execute (1)
