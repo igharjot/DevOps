@@ -8,8 +8,10 @@
 2. Create `notes.txt` with some content using `cat` or `echo`
 3. Create `script.sh` using `vim` with content: `echo "Hello DevOps"`
 
-<img width="874" height="365" alt="image" src="https://github.com/user-attachments/assets/0f1e92ac-6d6c-4958-9636-64b027bbe244" />
+<img width="704" height="332" alt="image" src="https://github.com/user-attachments/assets/2ed239b5-6686-483b-bd09-9952228cd0f4" />
 
+
+<img width="838" height="670" alt="image" src="https://github.com/user-attachments/assets/973309e5-21ac-405a-8627-83f37ba3708a" />
 
 ---
 
@@ -35,7 +37,7 @@ Check your files: `ls -l devops.txt notes.txt script.sh`
 
 ---
 
-### Task 4: Modify Permissions (20 minutes)
+### Task 4: Modify Permissions
 
 1. Make `script.sh` executable → run it with `./script.sh`
 2. Set `devops.txt` to read-only (remove write for all)
@@ -46,7 +48,7 @@ Check your files: `ls -l devops.txt notes.txt script.sh`
 
 ---
 
-### Task 5: Test Permissions (10 minutes)
+### Task 5: Test Permissions
 
 1. Try writing to a read-only file - what happens?
 2. Try executing a file without execute permission
