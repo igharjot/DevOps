@@ -5,30 +5,30 @@
 ### 🌐 Overview Comparison
 
     ------------------------------------------------------------------------
-    Feature         **OSI Model**            **TCP/IP Model**
+        Feature             OSI Model                 TCP/IP Model 
     --------------- ------------------------ -------------------------------
-    **Full Form**   Open Systems             Transmission Control Protocol /
-                  Interconnection          Internet Protocol
+    Full Form         Open Systems             Transmission Control Protocol /
+                      Interconnection          Internet Protocol
 
-    **Developed     ISO (International       DARPA / DoD
-    By**            Organization for         
-                  Standardization)         
+    Developed By      ISO (International       DARPA / DoD
+                      Organization for         
+                      Standardization)         
 
-    **Type**        Conceptual reference     Practical protocol suite
-                  model                    
+    Type              Conceptual reference     Practical protocol suite
+                      model                    
 
-    **Layers**      **7 Layers**             **4 Layers**
+    Layers            7 Layers                 4 Layers
 
-    **Approach**    Theoretical              Implementation-oriented
+    Approach          Theoretical              Implementation-oriented
 
-    **Usage**       Teaching / design        Real-world networking
-                  standard                 
+    Usage             Teaching / design        Real-world networking
+                      standard                 
     ------------------------------------------------------------------------
 
 
 ## 🧱 Layer Comparison
 
-    **OSI (7 Layers)**   **TCP/IP (4 Layers)**
+        OSI (7 Layers)      TCP/IP (4 Layers)
     -------------------- -----------------------
     7️⃣ Application       Application
     6️⃣ Presentation      Application
