@@ -4,53 +4,41 @@
 
 ### 🌐 Overview Comparison
 
-  ------------------------------------------------------------------------
-  Feature         **OSI Model**            **TCP/IP Model**
-  --------------- ------------------------ -------------------------------
-  **Full Form**   Open Systems             Transmission Control Protocol /
+    ------------------------------------------------------------------------
+    Feature         **OSI Model**            **TCP/IP Model**
+    --------------- ------------------------ -------------------------------
+    **Full Form**   Open Systems             Transmission Control Protocol /
                   Interconnection          Internet Protocol
 
-  **Developed     ISO (International       DARPA / DoD
-  By**            Organization for         
+    **Developed     ISO (International       DARPA / DoD
+    By**            Organization for         
                   Standardization)         
 
-  **Type**        Conceptual reference     Practical protocol suite
+    **Type**        Conceptual reference     Practical protocol suite
                   model                    
 
-  **Layers**      **7 Layers**             **4 Layers**
+    **Layers**      **7 Layers**             **4 Layers**
 
-  **Approach**    Theoretical              Implementation-oriented
+    **Approach**    Theoretical              Implementation-oriented
 
-  **Usage**       Teaching / design        Real-world networking
+    **Usage**       Teaching / design        Real-world networking
                   standard                 
-  ------------------------------------------------------------------------
+    ------------------------------------------------------------------------
 
-------------------------------------------------------------------------
 
 ## 🧱 Layer Comparison
 
-  **OSI (7 Layers)**   **TCP/IP (4 Layers)**
-  -------------------- -----------------------
-  7️⃣ Application       Application
-  6️⃣ Presentation      Application
-  5️⃣ Session           Application
-  4️⃣ Transport         Transport
-  3️⃣ Network           Internet
-  2️⃣ Data Link         Network Access
-  1️⃣ Physical          Network Access
+    **OSI (7 Layers)**   **TCP/IP (4 Layers)**
+    -------------------- -----------------------
+    7️⃣ Application       Application
+    6️⃣ Presentation      Application
+    5️⃣ Session           Application
+    4️⃣ Transport         Transport
+    3️⃣ Network           Internet
+    2️⃣ Data Link         Network Access
+    1️⃣ Physical          Network Access
 
-------------------------------------------------------------------------
-
-## 🔍 Key Differences
-
-### ✅ 1️⃣ Number of Layers
-
--   **OSI → 7 layers**
--   **TCP/IP → 4 layers**
-
-OSI is more detailed and granular.
-
-------------------------------------------------------------------------
+-----------------------------------------------------------------------
 
 ### ✅ 2️⃣ Nature
 
