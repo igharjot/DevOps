@@ -8,12 +8,19 @@
 3. Print `Hello, DevOps!` using `echo`
 4. Make it executable and run it
 
-```bash
-chmod +x hello.sh
-./hello.sh
-```
+<img width="586" height="210" alt="image" src="https://github.com/user-attachments/assets/e26669be-d959-4523-8ef8-519c077cebf8" />
+
+<img width="830" height="544" alt="image" src="https://github.com/user-attachments/assets/e62cee05-35c3-41f2-9aed-3d6c9396fa68" />
 
 **Document:** What happens if you remove the shebang line?
+Without shebang:
+
+- System uses parent shell/default shell
+- Bash-specific features may break:
+    - arrays
+    - [[ ]]
+    - brace expansion
+    - source
 
 ---
 
@@ -24,7 +31,9 @@ chmod +x hello.sh
    - Print: `Hello, I am <NAME> and I am a <ROLE>`
 2. Try using single quotes vs double quotes — what's the difference?
 
+<img width="723" height="286" alt="image" src="https://github.com/user-attachments/assets/7d4fd24c-86aa-4724-87fe-01a25b611327" />
 
+<img width="820" height="551" alt="image" src="https://github.com/user-attachments/assets/70a6a77b-4ff7-400b-ab26-a8fd4c0a7d6c" />
 
 ---
 
