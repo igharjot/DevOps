@@ -11,7 +11,9 @@
 <img width="586" height="210" alt="image" src="https://github.com/user-attachments/assets/e26669be-d959-4523-8ef8-519c077cebf8" />
 
 <img width="830" height="544" alt="image" src="https://github.com/user-attachments/assets/e62cee05-35c3-41f2-9aed-3d6c9396fa68" />
-.
+
+
+
 **Document:** What happens if you remove the shebang line?
 Without shebang:
 
@@ -43,6 +45,9 @@ Without shebang:
    - Asks for their favourite tool
    - Prints: `Hello <name>, your favourite tool is <tool>`
 
+<img width="774" height="319" alt="image" src="https://github.com/user-attachments/assets/fd4a7d8c-b2a1-4733-9862-3923c1318e27" />
+
+<img width="860" height="705" alt="image" src="https://github.com/user-attachments/assets/c1bcf154-a460-4060-8abb-ad64b20c1070" />
 
 ---
 
@@ -50,13 +55,20 @@ Without shebang:
 1. Create `check_number.sh` that:
    - Takes a number using `read`
    - Prints whether it is **positive**, **negative**, or **zero**
+  
+<img width="760" height="464" alt="image" src="https://github.com/user-attachments/assets/c81aa8e4-9294-4235-a020-f8068c1dbe7a" />
+
+<img width="789" height="696" alt="image" src="https://github.com/user-attachments/assets/80ecddde-88e9-4a08-bcc6-dd6913b6042c" />
+
 
 2. Create `file_check.sh` that:
    - Asks for a filename
    - Checks if the file **exists** using `-f`
    - Prints appropriate message
 
+<img width="770" height="377" alt="image" src="https://github.com/user-attachments/assets/fd1db73e-ffce-444a-9af2-97a4100f2533" />
 
+<img width="859" height="697" alt="image" src="https://github.com/user-attachments/assets/2a29c187-69f4-4bc5-9ce2-8f676b05e9f4" />
 
 ---
 
