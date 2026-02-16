@@ -11,7 +11,7 @@
 <img width="586" height="210" alt="image" src="https://github.com/user-attachments/assets/e26669be-d959-4523-8ef8-519c077cebf8" />
 
 <img width="830" height="544" alt="image" src="https://github.com/user-attachments/assets/e62cee05-35c3-41f2-9aed-3d6c9396fa68" />
-
+.
 **Document:** What happens if you remove the shebang line?
 Without shebang:
 
