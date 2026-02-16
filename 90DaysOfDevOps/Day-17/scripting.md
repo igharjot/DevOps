@@ -5,10 +5,18 @@
 ### Task 1: For Loop
 1. Create `for_loop.sh` that:
    - Loops through a list of 5 fruits and prints each one
+  
+<img width="859" height="627" alt="image" src="https://github.com/user-attachments/assets/04cf379f-4c22-46e5-ac08-8eb5b5034b9c" />
+
+<img width="758" height="289" alt="image" src="https://github.com/user-attachments/assets/d5d21faf-cb0f-4edb-98fd-ea0b5a892982" />
+
+
 2. Create `count.sh` that:
    - Prints numbers 1 to 10 using a for loop
 
+<img width="646" height="277" alt="image" src="https://github.com/user-attachments/assets/f807ad9e-610d-43cd-94c8-84e7cb9e5e69" />
 
+<img width="329" height="232" alt="image" src="https://github.com/user-attachments/assets/9f2255bd-0959-484a-af3c-a91bd675d01e" />
 
 ---
 
