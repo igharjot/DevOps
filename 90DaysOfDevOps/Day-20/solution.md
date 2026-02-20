@@ -3,7 +3,6 @@
 ## Challenge Tasks
 
 ### Task 1: Input and Validation
-Your script should:
 1. Accept the path to a log file as a command-line argument
 2. Exit with a clear error message if no argument is provided
 3. Exit with a clear error message if the file doesn't exist
@@ -54,5 +53,13 @@ Generate a summary report to a text file named `log_report_<date>.txt` (e.g., `l
 4. Total error count
 5. Top 5 error messages with their occurrence count
 6. List of critical events with line numbers
+
+---
+
+### Task 6 (Optional): Archive Processed Logs
+Add a feature to:
+1. Create an `archive/` directory if it doesn't exist
+2. Move the processed log file into `archive/` after analysis
+3. Print a confirmation message
 
 ---
