@@ -28,3 +28,31 @@ Line 217: 2025-07-29 14:32:01 CRITICAL Database connection lost
 ```
 
 ---
+
+### Task 4: Top Error Messages
+1. Extract all lines containing `ERROR`
+2. Identify the **top 5 most common** error messages
+3. Display them with their occurrence count, sorted in descending order
+
+Example output:
+```
+--- Top 5 Error Messages ---
+45 Connection timed out
+32 File not found
+28 Permission denied
+15 Disk I/O error
+9  Out of memory
+```
+
+---
+
+### Task 5: Summary Report
+Generate a summary report to a text file named `log_report_<date>.txt` (e.g., `log_report_2026-02-11.txt`). The report should include:
+1. Date of analysis
+2. Log file name
+3. Total lines processed
+4. Total error count
+5. Top 5 error messages with their occurrence count
+6. List of critical events with line numbers
+
+---
