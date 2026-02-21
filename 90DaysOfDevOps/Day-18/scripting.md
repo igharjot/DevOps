@@ -31,22 +31,3 @@
 
 ---
 
-### Task 4: Local Variables
-1. Create `local_demo.sh` with:
-   - A function that uses `local` keyword for variables
-   - Show that `local` variables don't leak outside the function
-   - Compare with a function that uses regular variables
-
----
-
-### Task 5: Build a Script — System Info Reporter
-Create `system_info.sh` that uses functions for everything:
-1. A function to print **hostname and OS info**
-2. A function to print **uptime**
-3. A function to print **disk usage** (top 5 by size)
-4. A function to print **memory usage**
-5. A function to print **top 5 CPU-consuming processes**
-6. A `main` function that calls all of the above with section headers
-7. Use `set -euo pipefail` at the top
-
----
