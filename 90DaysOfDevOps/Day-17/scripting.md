@@ -26,7 +26,9 @@
    - Counts down to 0 using a while loop
    - Prints "Done!" at the end
 
+<img width="866" height="746" alt="image" src="https://github.com/user-attachments/assets/a722456b-9c21-4b81-8191-3fd22863acdb" />
 
+<img width="932" height="678" alt="image" src="https://github.com/user-attachments/assets/3d29466c-1464-47d4-8517-0be6c0bec405" />
 
 ---
 
