@@ -8,6 +8,10 @@
    - A function `add` that takes two numbers and prints their sum
    - Call both functions from the script
 
+<img width="769" height="375" alt="image" src="https://github.com/user-attachments/assets/5ed338b0-ef93-44ff-ba56-78b1c0c2a884" />
+
+<img width="580" height="410" alt="image" src="https://github.com/user-attachments/assets/834ce490-1754-4a10-a001-b53c33d8c433" />
+
 ---
 
 ### Task 2: Functions with Return Values
