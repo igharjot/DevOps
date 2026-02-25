@@ -38,7 +38,9 @@
    - Prints `Hello, <name>!`
    - If no argument is passed, prints "Usage: ./greet.sh <name>"
 
+<img width="572" height="358" alt="image" src="https://github.com/user-attachments/assets/bc42aa88-15a7-4a63-bfa7-64b6c8f286c9" />
 
+<img width="740" height="430" alt="image" src="https://github.com/user-attachments/assets/5893f79b-9848-4a5c-9e74-f76259358c08" />
 
 2. Create `args_demo.sh` that:
    - Prints total number of arguments (`$#`)
