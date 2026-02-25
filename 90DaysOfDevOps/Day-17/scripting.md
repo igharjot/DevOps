@@ -47,7 +47,9 @@
    - Prints all arguments (`$@`)
    - Prints the script name (`$0`)
 
+<img width="534" height="330" alt="image" src="https://github.com/user-attachments/assets/d57eb56e-f85b-4cdd-9d62-de9621dea445" />
 
+<img width="739" height="341" alt="image" src="https://github.com/user-attachments/assets/2dafe904-8113-456f-9304-3ac7558a050e" />
 
 ---
 
