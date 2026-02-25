@@ -63,7 +63,9 @@
 
 > Run as root: `sudo -i` or `sudo su`
 
+<img width="926" height="710" alt="image" src="https://github.com/user-attachments/assets/41e06caa-0c8a-4738-b50d-be6c50c68243" />
 
+<img width="717" height="494" alt="image" src="https://github.com/user-attachments/assets/bdaa09b5-6041-4687-ab99-7dd10cdb26c3" />
 
 ---
 
