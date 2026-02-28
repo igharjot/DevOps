@@ -51,7 +51,9 @@ Prevents the script from continuing in a broken state.
    - Show that `local` variables don't leak outside the function
    - Compare with a function that uses regular variables
 
+<img width="834" height="721" alt="image" src="https://github.com/user-attachments/assets/77c49b6f-8a95-4f0f-8dfe-fdb0eb730d2c" />
 
+<img width="819" height="373" alt="image" src="https://github.com/user-attachments/assets/2e0608b2-a23f-4bc7-abaa-935e027f59c0" />
 
 ---
 
@@ -65,7 +67,8 @@ Create `system_info.sh` that uses functions for everything:
 6. A `main` function that calls all of the above with section headers
 7. Use `set -euo pipefail` at the top
 
+<img width="934" height="963" alt="image" src="https://github.com/user-attachments/assets/4a46d0cf-da5a-41fc-b38e-e19ca3b8d976" />
 
+<img width="937" height="952" alt="image" src="https://github.com/user-attachments/assets/ffdcf45d-b668-4fed-9dce-2c6551870069" />
 
 ---
-
