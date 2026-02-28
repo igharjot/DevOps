@@ -7,11 +7,15 @@
 2. Exit with a clear error message if no argument is provided
 3. Exit with a clear error message if the file doesn't exist
 
+
+
 ---
 
 ### Task 2: Error Count
 1. Count the total number of lines containing the keyword `ERROR` or `Failed`
 2. Print the total error count to the console
+
+
 
 ---
 
@@ -19,12 +23,6 @@
 1. Search for lines containing the keyword `CRITICAL`
 2. Print those lines along with their line number
 
-Example output:
-```
---- Critical Events ---
-Line 84: 2025-07-29 10:15:23 CRITICAL Disk space below threshold
-Line 217: 2025-07-29 14:32:01 CRITICAL Database connection lost
-```
 
 ---
 
@@ -33,15 +31,6 @@ Line 217: 2025-07-29 14:32:01 CRITICAL Database connection lost
 2. Identify the **top 5 most common** error messages
 3. Display them with their occurrence count, sorted in descending order
 
-Example output:
-```
---- Top 5 Error Messages ---
-45 Connection timed out
-32 File not found
-28 Permission denied
-15 Disk I/O error
-9  Out of memory
-```
 
 ---
 
@@ -54,6 +43,8 @@ Generate a summary report to a text file named `log_report_<date>.txt` (e.g., `l
 5. Top 5 error messages with their occurrence count
 6. List of critical events with line numbers
 
+
+
 ---
 
 ### Task 6 (Optional): Archive Processed Logs
@@ -61,5 +52,7 @@ Add a feature to:
 1. Create an `archive/` directory if it doesn't exist
 2. Move the processed log file into `archive/` after analysis
 3. Print a confirmation message
+
+
 
 ---
