@@ -2,3 +2,12 @@ name: Harjot Singh
 role: DevOps Engineer
 experience_years: 2
 learning: true
+
+tools:
+  - Linux
+  - Python
+  - GitHub
+  - GitHub Actions
+  - JIRA
+
+hobbies: [Listening Music, Geopolitics, Playing Cricket]
