@@ -1,9 +1,6 @@
 server:
-
   name: mysql
-
   ip: 192.0.0.1
-
   port: 80
 
   startup_script1: |
@@ -24,15 +21,10 @@ server:
     systemctl enable docker
     systemctl is-enabled docker
 
-
 database: 
-
   host: oracle
-
   name: devops
 
   credentials:
-
     user: root
-
     password: root@123
