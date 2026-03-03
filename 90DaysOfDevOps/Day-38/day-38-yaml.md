@@ -61,7 +61,7 @@ Create `server.yaml` that describes a server:
 - `server` with nested keys: `name`, `ip`, `port`
 - `database` with nested keys: `host`, `name`, `credentials` (nested further: `user`, `password`)
 
-**Verify:** Try adding a tab instead of spaces — what happens when you validate it?
+<img width="949" height="988" alt="image" src="https://github.com/user-attachments/assets/79c455d2-0ac6-4cdf-861f-95d657085994" />
 
 ---
 
@@ -71,8 +71,18 @@ In `server.yaml`, add a `startup_script` field using:
 
 1. The `|` block style (preserves newlines)
 2. The `>` fold style (folds into one line)
+3. 
+<img width="943" height="997" alt="image" src="https://github.com/user-attachments/assets/8c9dbbd1-f967-4635-b77f-d778d6631a4b" />
 
 Write in your notes: When would you use `|` vs `>`?
+```
+|          Use '|'        |               Use '>'          |
+|-------------------------|--------------------------------|
+| Shell scripts           | Long text paragraphs           |
+| Multi-line commands     | Long descriptions              |
+| Code blocks             | Messages                       |
+| When formatting matters | When formatting doesn't matter |
+```
 
 ---
 
@@ -82,6 +92,26 @@ Write in your notes: When would you use `|` vs `>`?
 2. Validate both your YAML files
 3. Intentionally break the indentation — what error do you get?
 4. Fix it and validate again
+
+### person.yml
+Correct format:
+<img width="920" height="606" alt="image" src="https://github.com/user-attachments/assets/7b82f0a7-683b-455f-827e-548dfc95859f" />
+
+.
+
+Wrong Indentation:
+<img width="909" height="657" alt="image" src="https://github.com/user-attachments/assets/6464dbc2-b2e3-42c5-92b2-f15e48f5b18a" />
+
+---
+
+### server.yml
+Correct format:
+<img width="925" height="651" alt="image" src="https://github.com/user-attachments/assets/66b0d30c-079a-4beb-b0cf-fa0dfe168d99" />
+
+.
+
+Wrong Indentation:
+<img width="925" height="678" alt="image" src="https://github.com/user-attachments/assets/d5a0694f-7f8a-4928-971e-be3cf36d33f8" />
 
 ---
 
@@ -104,5 +134,6 @@ tools:
   - docker
     - kubernetes
 ```
+**ANSWER:** Wrong indentation in Block-2; '-kubernetes' is a tab space away, while '-docker' is 2 spaces away(which is the correct format).
 
 ---
