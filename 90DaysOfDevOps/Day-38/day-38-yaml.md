@@ -13,6 +13,9 @@ Create `person.yaml` that describes yourself with:
 
 **Verify:** Run `cat person.yaml` — does it look clean? No tabs?
 
+<img width="948" height="857" alt="image" src="https://github.com/user-attachments/assets/59497e75-abbb-40e5-9516-03b4d933094d" />
+
+
 ---
 
 ### Task 2: Lists
