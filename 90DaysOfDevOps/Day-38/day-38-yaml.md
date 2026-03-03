@@ -24,8 +24,10 @@ Add to `person.yaml`:
 - `tools` — a list of 5 DevOps tools you know or are learning
 - `hobbies` — a list using the inline format `[item1, item2]`
 
-What are the two ways to write a list in YAML?
+<img width="913" height="993" alt="image" src="https://github.com/user-attachments/assets/820b98e2-9b53-46dc-b6ac-7d5ae5b0fcca" />
 
+**Question: What are the two ways to write a list in YAML?**
+Answer:
 *1. Block Style (Dash - format)*
 
 Each item starts with a dash and space.
