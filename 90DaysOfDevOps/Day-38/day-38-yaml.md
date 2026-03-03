@@ -11,10 +11,9 @@ Create `person.yaml` that describes yourself with:
 - `experience_years`
 - `learning` (a boolean)
 
-**Verify:** Run `cat person.yaml` — does it look clean? No tabs?
+**Verify:** Run `cat person.yaml`
 
 <img width="948" height="857" alt="image" src="https://github.com/user-attachments/assets/59497e75-abbb-40e5-9516-03b4d933094d" />
-
 
 ---
 
@@ -25,7 +24,31 @@ Add to `person.yaml`:
 - `tools` — a list of 5 DevOps tools you know or are learning
 - `hobbies` — a list using the inline format `[item1, item2]`
 
-Write in your notes: What are the two ways to write a list in YAML?
+What are the two ways to write a list in YAML?
+
+*1. Block Style (Dash - format)*
+
+Each item starts with a dash and space.
+```YAML
+tools:
+  - Git
+  - Docker
+  - AWS
+  - Linux
+```
+✔ Most common
+✔ Clean and readable
+✔ Used in GitHub Actions a lot
+
+*2. Inline Style (Bracket [] format)*
+
+Items are written inside square brackets, separated by commas.
+```YAML
+hobbies: [Listening to hip hop, Coding, Gaming]
+```
+✔ Shorter
+✔ Good for small lists
+✔ Less readable for long lists
 
 ---
 
