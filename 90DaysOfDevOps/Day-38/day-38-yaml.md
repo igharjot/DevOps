@@ -3,7 +3,9 @@
 ## Challenge Tasks
 
 ### Task 1: Key-Value Pairs
+
 Create `person.yaml` that describes yourself with:
+
 - `name`
 - `role`
 - `experience_years`
@@ -14,7 +16,9 @@ Create `person.yaml` that describes yourself with:
 ---
 
 ### Task 2: Lists
+
 Add to `person.yaml`:
+
 - `tools` — a list of 5 DevOps tools you know or are learning
 - `hobbies` — a list using the inline format `[item1, item2]`
 
@@ -23,7 +27,9 @@ Write in your notes: What are the two ways to write a list in YAML?
 ---
 
 ### Task 3: Nested Objects
+
 Create `server.yaml` that describes a server:
+
 - `server` with nested keys: `name`, `ip`, `port`
 - `database` with nested keys: `host`, `name`, `credentials` (nested further: `user`, `password`)
 
@@ -32,7 +38,9 @@ Create `server.yaml` that describes a server:
 ---
 
 ### Task 4: Multi-line Strings
+
 In `server.yaml`, add a `startup_script` field using:
+
 1. The `|` block style (preserves newlines)
 2. The `>` fold style (folds into one line)
 
@@ -41,6 +49,7 @@ Write in your notes: When would you use `|` vs `>`?
 ---
 
 ### Task 5: Validate Your YAML
+
 1. Install `yamllint` or use an online validator
 2. Validate both your YAML files
 3. Intentionally break the indentation — what error do you get?
@@ -49,6 +58,7 @@ Write in your notes: When would you use `|` vs `>`?
 ---
 
 ### Task 6: Spot the Difference
+
 Read both blocks and write what's wrong with the second one:
 
 ```yaml
@@ -63,8 +73,8 @@ tools:
 # Block 2 - broken
 name: devops
 tools:
-- docker
-  - kubernetes
+  - docker
+    - kubernetes
 ```
 
 ---
