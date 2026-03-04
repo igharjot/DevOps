@@ -149,7 +149,7 @@ I opened Kubernetes github repsitory: https://github.com/facebook/react
 2. Find their `.github/workflows/` folder
 3. Open one workflow YAML file
 
-I have opened "" file.
+I have opened ".github/workflows/compiler_discord_notify.yml" file.
 
 4. Write in your notes:
    - What triggers it?
