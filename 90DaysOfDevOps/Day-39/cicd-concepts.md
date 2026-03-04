@@ -19,10 +19,19 @@ Many things can break when multiple developers deploy manually:
 - No rollback strategy : If the deployment breaks the system, it may take time to manually fix or revert.
 - Dependency mismatch : Production environment may not have the same packages or versions.
 
-3. What does "it works on my machine" mean and why is it a real problem?
+2. What does "it works on my machine" mean and why is it a real problem?
+“It works on my machine” means:
+> The code runs correctly on the developer’s computer but fails on another developer’s system or in production.
 
-4. 
-5. How many times a day can a team safely deploy manually?
+This happens because environments are different:
+Examples:
+- Different OS (Windows vs Linux)
+- Different library versions
+- Missing environment variables
+- Different Node/Python/Java versions
+- Missing dependencies
+
+3. How many times a day can a team safely deploy manually?
 
 ---
 
