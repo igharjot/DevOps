@@ -32,6 +32,20 @@ Examples:
 - Missing dependencies
 
 3. How many times a day can a team safely deploy manually?
+Usually very few times. Typical manual deployment limits: 1–2 deployments per day safely
+Each deployment requires:
+- coordination
+- testing
+- monitoring
+  
+*Why manual deployments don’t scale:*
+- Time consuming
+- High risk of mistakes
+- Requires human supervision
+
+**With CI/CD automation, teams can deploy: 10–100+ times per day, safely and consistently**
+
+Example: companies like Netflix, Amazon, and Google deploy thousands of times per day using automated pipelines.
 
 ---
 
