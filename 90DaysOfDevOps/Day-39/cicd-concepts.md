@@ -51,19 +51,13 @@ Example: companies like Netflix, Amazon, and Google deploy thousands of times pe
 
 ### Task 2: CI vs CD
 
-Research and write short definitions (2-3 lines each):
-
 1. **Continuous Integration** — what happens, how often, what it catches
 2. **Continuous Delivery** — how it's different from CI, what "delivery" means
 3. **Continuous Deployment** — how it differs from Delivery, when teams use it
 
-Write one real-world example for each.
-
 ---
 
 ### Task 3: Pipeline Anatomy
-
-A pipeline has these parts — write what each one does:
 
 - **Trigger** — what starts the pipeline
 - **Stage** — a logical phase (build, test, deploy)
