@@ -9,8 +9,20 @@ Think about a team of 5 developers all pushing code to the same repo manually de
 Write in your notes:
 
 1. What can go wrong?
-2. What does "it works on my machine" mean and why is it a real problem?
-3. How many times a day can a team safely deploy manually?
+Many things can break when multiple developers deploy manually:
+
+- Code conflicts : Two developers may deploy different versions of code and overwrite each other’s changes.
+- Human error : Someone might forget a step (run migrations, install dependencies, restart services, etc.).
+- Wrong version deployed : A developer might accidentally deploy an old branch instead of the latest code.
+- Downtime : Incorrect deployment steps can crash the production server.
+- Untracked changes : Someone may modify files directly on the server and the repo no longer matches production.
+- No rollback strategy : If the deployment breaks the system, it may take time to manually fix or revert.
+- Dependency mismatch : Production environment may not have the same packages or versions.
+
+3. What does "it works on my machine" mean and why is it a real problem?
+
+4. 
+5. How many times a day can a team safely deploy manually?
 
 ---
 
