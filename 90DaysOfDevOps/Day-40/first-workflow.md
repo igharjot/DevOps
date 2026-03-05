@@ -7,6 +7,9 @@
 2. Clone it locally
 3. Create the folder structure: `.github/workflows/`
 
+<img width="1156" height="1024" alt="image" src="https://github.com/user-attachments/assets/aa7bd1ce-5de1-4921-9a71-74782a4729d2" />
+
+
 ---
 
 ### Task 2: Hello Workflow
