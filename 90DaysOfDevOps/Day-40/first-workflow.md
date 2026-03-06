@@ -53,10 +53,3 @@ Update `hello.yml` to also:
 <img width="954" height="852" alt="image" src="https://github.com/user-attachments/assets/11dac8b2-454f-4ad5-933a-2f90d1716e56" />
 
 ---
-
-### Task 5: Break It On Purpose
-1. Add a step that runs a command that will **fail**
-2. Push and observe what happens in the Actions tab
-3. Fix it and push again
-
----
