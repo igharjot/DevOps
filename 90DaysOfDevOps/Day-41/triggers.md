@@ -8,6 +8,9 @@
 3. Add a step that prints: `PR check running for branch: <branch name>`
 4. Create a new branch, push a commit, and open a PR
 5. Watch the workflow run automatically
+   
+<img width="950" height="811" alt="image" src="https://github.com/user-attachments/assets/40d31de1-b9ed-474d-81fe-ae7d730633b7" />
+
 
 **Verify:**
 
