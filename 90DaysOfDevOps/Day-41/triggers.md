@@ -12,7 +12,7 @@
 <img width="950" height="811" alt="image" src="https://github.com/user-attachments/assets/40d31de1-b9ed-474d-81fe-ae7d730633b7" />
 
 <img width="939" height="870" alt="image" src="https://github.com/user-attachments/assets/8a65593d-49db-4f98-bc49-437720bc32dc" />
-.
+
 **Verify:**
 <img width="951" height="876" alt="image" src="https://github.com/user-attachments/assets/04ac644d-7cfa-4fb5-bb46-ab34cb4e99be" />
 
@@ -56,7 +56,15 @@ Create `.github/workflows/matrix.yml` that:
 2. Each job installs Python and prints the version
 3. Watch all 3 run in parallel
 
-Then extend the matrix to also include 2 operating systems — how many total jobs run now?
+<img width="963" height="629" alt="image" src="https://github.com/user-attachments/assets/eecdaae9-0007-4ad0-895f-8220d023236f" />
+
+<img width="958" height="877" alt="image" src="https://github.com/user-attachments/assets/f644fa0c-be9c-45cb-8cd4-36b148174151" />
+
+Then extend the matrix to also include 2 operating systems.
+
+<img width="960" height="1014" alt="image" src="https://github.com/user-attachments/assets/329c39f5-f4fe-4fef-b897-b58b3452c281" />
+
+<img width="956" height="878" alt="image" src="https://github.com/user-attachments/assets/778777f9-8e95-454f-8a25-7a28ccefe655" />
 
 ---
 
