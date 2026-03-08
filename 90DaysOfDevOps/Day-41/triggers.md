@@ -78,6 +78,7 @@ Then extend the matrix to also include 2 operating systems.
 
 3. What does `fail-fast: true` (the default) do vs `false`?
 Ans.
+
 *fail-fast: true (default)*
 - If one job in the matrix fails,
 - GitHub cancels all remaining running and queued jobs.
