@@ -11,16 +11,26 @@
    
 <img width="950" height="811" alt="image" src="https://github.com/user-attachments/assets/40d31de1-b9ed-474d-81fe-ae7d730633b7" />
 
-
+<img width="939" height="870" alt="image" src="https://github.com/user-attachments/assets/8a65593d-49db-4f98-bc49-437720bc32dc" />
+.
 **Verify:**
+<img width="951" height="876" alt="image" src="https://github.com/user-attachments/assets/04ac644d-7cfa-4fb5-bb46-ab34cb4e99be" />
 
 ---
 
 ### Task 2: Scheduled Trigger
 1. Add a `schedule:` trigger to any workflow using cron syntax
 2. Set it to run every day at midnight UTC
-3. Write in your notes: What is the cron expression for every Monday at 9 AM?
 
+<img width="692" height="494" alt="image" src="https://github.com/user-attachments/assets/100db5e7-a02f-4870-8366-a8269abdc747" />
+
+3. What is the cron expression for every Monday at 9 AM?
+Ans.
+```
+on:
+  schedule:
+    - cron: '0 9 * * 1'
+```
 ---
 
 ### Task 3: Manual Trigger
@@ -29,7 +39,13 @@
 3. Print the input value in a step
 4. Go to the **Actions** tab → find the workflow → click **Run workflow**
 
-**Verify:** Can you trigger it manually and see your input printed?
+<img width="1200" height="1002" alt="image" src="https://github.com/user-attachments/assets/a1845c88-768f-4f76-8906-596636044a97" />
+
+**Verify:**
+
+<img width="956" height="873" alt="image" src="https://github.com/user-attachments/assets/d1b69eff-7be7-4000-bebe-4995f8ea0159" />
+
+<img width="958" height="863" alt="image" src="https://github.com/user-attachments/assets/d1a55f03-b92c-44a0-b2fe-85faad62629e" />
 
 ---
 
