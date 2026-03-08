@@ -71,6 +71,21 @@ Then extend the matrix to also include 2 operating systems.
 ### Task 5: Exclude & Fail-Fast
 1. In your matrix, **exclude** one specific combination (e.g., Python 3.10 on Windows)
 2. Set `fail-fast: false` — trigger a failure in one job and observe what happens to the rest
-3. Write in your notes: What does `fail-fast: true` (the default) do vs `false`?
+
+<img width="942" height="807" alt="image" src="https://github.com/user-attachments/assets/eaa36122-3188-4dc2-aa31-37524eabb7a2" />
+
+<img width="929" height="873" alt="image" src="https://github.com/user-attachments/assets/c9566849-8233-4c42-aa72-79967e90269e" />
+
+3. What does `fail-fast: true` (the default) do vs `false`?
+Ans.
+*fail-fast: true (default)*
+- If one job in the matrix fails,
+- GitHub cancels all remaining running and queued jobs.
+- Purpose: Save CI time and resources.
+
+*fail-fast: false*
+- If one job fails,
+- Other jobs continue running until all finish.
+- Purpose: Useful when testing across many environments and you want full results.
 
 ---
