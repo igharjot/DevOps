@@ -37,7 +37,10 @@ Why does it matter that runners come with tools pre-installed?
    - A cloud VM (EC2, Utho, or any VPS)
 4. Start the runner — verify it shows as **Idle** in GitHub
 
-**Verify:** Your runner appears in the Runners list with a green dot.
+**Verify:**
+
+<img width="648" height="251" alt="image" src="https://github.com/user-attachments/assets/960fb637-a930-46da-b738-dfbef7dd4bc4" />
+
 
 ---
 
