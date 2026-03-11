@@ -68,13 +68,13 @@ Why are labels useful when you have multiple self-hosted runners?
 
 ### Task 6: GitHub-Hosted vs Self-Hosted
 Fill this in your notes:
-
-| | GitHub-Hosted | Self-Hosted |
-|---|---|---|
-| Who manages it? | ? | ? |
-| Cost | ? | ? |
-| Pre-installed tools | ? | ? |
-| Good for | ? | ? |
-| Security concern | ? | ? |
-
+```
+|                     | GitHub-Hosted | Self-Hosted |
+|---------------------|---------------|-------------|
+| Who manages it?     | ?             |             |
+| Cost                | ?             | ?           |
+| Pre-installed tools | ?             | ?           |
+| Good for            | ?             | ?           |
+| Security concern    | ?             | ?           |
+```
 ---
