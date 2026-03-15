@@ -8,13 +8,13 @@
 3. Create a workflow that reads it and prints: `The secret is set: true` (never print the actual value)
 4. Try to print `${{ secrets.MY_SECRET_MESSAGE }}` directly — what does GitHub show?
 
-Write in your notes: Why should you never print secrets in CI logs?
+Why should you never print secrets in CI logs?
 
 ---
 
 ### Task 2: Use Secrets as Environment Variables
 1. Pass a secret to a step as an environment variable
 2. Use it in a shell command without ever hardcoding it
-3. Add `DOCKER_USERNAME` and `DOCKER_TOKEN` as secrets (you'll need these on Day 45)
+3. Add `DOCKER_USERNAME` and `DOCKER_TOKEN` as secrets
 
 ---
