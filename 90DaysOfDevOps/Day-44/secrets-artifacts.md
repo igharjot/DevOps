@@ -18,9 +18,20 @@ Why should you never print secrets in CI logs?
 3. Add `DOCKER_USERNAME` and `DOCKER_TOKEN` as secrets
 
 ---
+
 ### Task 3: Upload Artifacts
 1. Create a step that generates a file — e.g., a test report or a log file
 2. Use `actions/upload-artifact` to save it
 3. After the workflow runs, download the artifact from the Actions tab
 
 **Verify:** Can you see and download it from GitHub?
+
+---
+
+### Task 4: Download Artifacts Between Jobs
+1. Job 1: generate a file and upload it as an artifact
+2. Job 2: download the artifact from Job 1 and use it (print its contents)
+
+Write in your notes: When would you use artifacts in a real pipeline?
+
+---
