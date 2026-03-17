@@ -32,6 +32,6 @@ Why should you never print secrets in CI logs?
 1. Job 1: generate a file and upload it as an artifact
 2. Job 2: download the artifact from Job 1 and use it (print its contents)
 
-Write in your notes: When would you use artifacts in a real pipeline?
+When would you use artifacts in a real pipeline?
 
 ---
