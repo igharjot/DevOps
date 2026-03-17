@@ -18,3 +18,9 @@ Why should you never print secrets in CI logs?
 3. Add `DOCKER_USERNAME` and `DOCKER_TOKEN` as secrets
 
 ---
+### Task 3: Upload Artifacts
+1. Create a step that generates a file — e.g., a test report or a log file
+2. Use `actions/upload-artifact` to save it
+3. After the workflow runs, download the artifact from the Actions tab
+
+**Verify:** Can you see and download it from GitHub?
