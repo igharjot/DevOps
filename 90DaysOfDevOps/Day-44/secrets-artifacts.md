@@ -48,9 +48,3 @@ Take any script from your earlier days (Python or Shell) and run it in CI:
 
 ---
 
-### Task 6: Caching
-1. Add `actions/cache` to a workflow that installs dependencies
-2. Run it twice — observe the time difference
-3. Write in your notes: What is being cached and where is it stored?
-
----
