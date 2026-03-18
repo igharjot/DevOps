@@ -45,3 +45,10 @@ In a workflow, add:
 4. A step with `continue-on-error: true` — what does this do?
 
 ---
+### Task 5: Putting It Together
+Create `.github/workflows/smart-pipeline.yml` that:
+1. Triggers on push to any branch
+2. Has a `lint` job and a `test` job running in parallel
+3. Has a `summary` job that runs after both, prints whether it's a `main` branch push or a feature branch push, and prints the commit message
+
+---
