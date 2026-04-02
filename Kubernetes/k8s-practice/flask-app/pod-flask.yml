@@ -1,0 +1,15 @@
+kind:  Pod
+
+apiVersion: v1
+
+metadata:
+    name: flask-app
+    namespace: flask-app
+
+
+spec:
+    containers:
+        - name: flask-app
+          image: trainwithshubham/github-actions-app:latest
+          ports:
+              - containerPort: 80
