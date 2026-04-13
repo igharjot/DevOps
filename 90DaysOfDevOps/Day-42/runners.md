@@ -13,7 +13,14 @@
    - The current user running the job
 3. Watch all 3 run in parallel
 
+<img width="781" height="771" alt="image" src="https://github.com/user-attachments/assets/9d6ba278-a9f5-4906-b687-85f5f8288238" />
+
+<img width="951" height="647" alt="image" src="https://github.com/user-attachments/assets/54660754-9a8c-4e6d-a81b-e4008330cb5a" />
+
 What is a GitHub-hosted runner? Who manages it?
+Ans: GitHub-hosted runners are the different runners provided by the github only, for example- ubuntu, macOS, windows, etc.
+
+These are fully managed by the github actions only.
 
 ---
 
@@ -23,9 +30,15 @@ What is a GitHub-hosted runner? Who manages it?
    - Python version
    - Node version
    - Git version
+  
+<img width="748" height="466" alt="image" src="https://github.com/user-attachments/assets/980c3301-2cb2-416a-bd11-4023f8bb8770" />
+
+
+
 2. Look up the GitHub docs for the full list of pre-installed software on `ubuntu-latest`
 
 Why does it matter that runners come with tools pre-installed?
+Ans: This helps the developer provide pre-installed environment to exucute its work freely without installing the packages before.
 
 ---
 
