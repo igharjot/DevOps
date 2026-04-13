@@ -85,11 +85,7 @@ Why are labels useful when you have multiple self-hosted runners?
 ---
 
 ### Task 6: GitHub-Hosted vs Self-Hosted
-Fill this in your notes:
 
-### ==================================================
-###        GitHub-Hosted vs Self-Hosted Runners
-### ==================================================
 ```
  |                     | GitHub-Hosted                        | Self-Hosted                              |
  |---------------------|--------------------------------------|------------------------------------------|
