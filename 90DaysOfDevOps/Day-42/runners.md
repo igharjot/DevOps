@@ -18,6 +18,7 @@
 <img width="951" height="647" alt="image" src="https://github.com/user-attachments/assets/54660754-9a8c-4e6d-a81b-e4008330cb5a" />
 
 What is a GitHub-hosted runner? Who manages it?
+
 Ans: GitHub-hosted runners are the different runners provided by the github only, for example- ubuntu, macOS, windows, etc.
 
 These are fully managed by the github actions only.
@@ -33,11 +34,15 @@ These are fully managed by the github actions only.
   
 <img width="748" height="466" alt="image" src="https://github.com/user-attachments/assets/980c3301-2cb2-416a-bd11-4023f8bb8770" />
 
+<img width="935" height="691" alt="image" src="https://github.com/user-attachments/assets/ceb09c12-44dd-4d0a-9284-7ca954212eae" />
 
 
 2. Look up the GitHub docs for the full list of pre-installed software on `ubuntu-latest`
 
+Here is the full list: https://gist.github.com/stevecondylios/fc6fd259af75a2545bfece930e24f57f
+
 Why does it matter that runners come with tools pre-installed?
+
 Ans: This helps the developer provide pre-installed environment to exucute its work freely without installing the packages before.
 
 ---
@@ -81,13 +86,16 @@ Why are labels useful when you have multiple self-hosted runners?
 
 ### Task 6: GitHub-Hosted vs Self-Hosted
 Fill this in your notes:
-```
-|                     | GitHub-Hosted | Self-Hosted |
-|---------------------|---------------|-------------|
-| Who manages it?     | ?             |             |
-| Cost                | ?             | ?           |
-| Pre-installed tools | ?             | ?           |
-| Good for            | ?             | ?           |
-| Security concern    | ?             | ?           |
-```
+## =====================================================================
+##               GitHub-Hosted vs Self-Hosted Runners
+## =====================================================================
+##
+## |                     | GitHub-Hosted                        | Self-Hosted                              |
+## |---------------------|--------------------------------------|------------------------------------------|
+## | Who manages it?     | GitHub/Microsoft                     | You (your own server/VM)                 |
+## | Cost                | Free (limited minutes); paid beyond  | Free to use; you pay for your own infra  |
+## | Pre-installed tools | Many tools pre-installed             | You install & maintain everything        |
+## | Good for            | Open source, small-medium projects   | Large projects, custom environments      |
+## | Security concern    | Code runs on shared GitHub infra     | Full control, but secure it yourself     |
+## =====================================================================
 ---
