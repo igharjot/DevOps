@@ -86,16 +86,19 @@ Why are labels useful when you have multiple self-hosted runners?
 
 ### Task 6: GitHub-Hosted vs Self-Hosted
 Fill this in your notes:
-## =====================================================================
-##               GitHub-Hosted vs Self-Hosted Runners
-## =====================================================================
-##
-## |                     | GitHub-Hosted                        | Self-Hosted                              |
-## |---------------------|--------------------------------------|------------------------------------------|
-## | Who manages it?     | GitHub/Microsoft                     | You (your own server/VM)                 |
-## | Cost                | Free (limited minutes); paid beyond  | Free to use; you pay for your own infra  |
-## | Pre-installed tools | Many tools pre-installed             | You install & maintain everything        |
-## | Good for            | Open source, small-medium projects   | Large projects, custom environments      |
-## | Security concern    | Code runs on shared GitHub infra     | Full control, but secure it yourself     |
-## =====================================================================
+
+### ==================================================
+###        GitHub-Hosted vs Self-Hosted Runners
+### ==================================================
+```
+ |                     | GitHub-Hosted                        | Self-Hosted                              |
+ |---------------------|--------------------------------------|------------------------------------------|
+ | Who manages it?     | GitHub/Microsoft                     | You (your own server/VM)                 |
+ | Cost                | Free (limited minutes); paid beyond  | Free to use; you pay for your own infra  |
+ | Pre-installed tools | Many tools pre-installed             | You install & maintain everything        |
+ | Good for            | Open source, small-medium projects   | Large projects, custom environments      |
+ | Security concern    | Code runs on shared GitHub infra     | Full control, but secure it yourself     |
+ =====================================================================
+```
+
 ---
