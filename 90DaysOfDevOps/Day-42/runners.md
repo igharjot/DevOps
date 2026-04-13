@@ -71,7 +71,14 @@ Ans: This helps the developer provide pre-installed environment to exucute its w
    - Create a file and verify it exists on your machine after the run
 4. Trigger it and watch it run on your own hardware
 
+<img width="827" height="628" alt="image" src="https://github.com/user-attachments/assets/95b9fee8-4681-4808-b381-f829abaff670" />
+
+<img width="1782" height="974" alt="image" src="https://github.com/user-attachments/assets/0dff2fd8-a744-40b1-a2bf-897af3e98b0b" />
+
+
+
 **Verify:**
+
 
 ---
 
