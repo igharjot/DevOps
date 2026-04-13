@@ -76,9 +76,8 @@ Ans: This helps the developer provide pre-installed environment to exucute its w
 <img width="1782" height="974" alt="image" src="https://github.com/user-attachments/assets/0dff2fd8-a744-40b1-a2bf-897af3e98b0b" />
 
 
-
 **Verify:**
-
+<img width="852" height="705" alt="image" src="https://github.com/user-attachments/assets/775bc4b4-6ec6-42ab-8ef5-4b2dd22c305d" />
 
 ---
 
@@ -87,7 +86,11 @@ Ans: This helps the developer provide pre-installed environment to exucute its w
 2. Update your workflow to use `runs-on: [self-hosted, my-linux-runner]`
 3. Trigger it — does it still pick up the job?
 
-Why are labels useful when you have multiple self-hosted runners?
+Que: Why are labels useful when you have multiple self-hosted runners?
+
+Ans: When we have multiple self-hosted runners, labels are used to match/map the desired self-hosted runner which we want to use.
+
+Labels make it easier to use a specific runner.
 
 ---
 
