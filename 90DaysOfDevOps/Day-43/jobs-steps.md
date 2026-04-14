@@ -17,7 +17,6 @@ Make `deploy` run only **after** `test` succeeds.
 **Verify:** Check the workflow graph in the Actions tab — does it show the dependency chain?
 <img width="945" height="600" alt="image" src="https://github.com/user-attachments/assets/d229739c-fdb9-4bdd-bbd7-678d54e0fa9c" />
 
-
 ---
 
 ### Task 2: Environment Variables
@@ -28,7 +27,11 @@ In a new workflow, use environment variables at 3 levels:
 
 Print all three in a single step and verify each is accessible.
 
-Then use a **GitHub context variable** — print the commit SHA and the actor (who triggered the run).
+Then use a **GitHub context variable** to print the commit SHA and the actor (who triggered the run).
+
+<img width="824" height="698" alt="image" src="https://github.com/user-attachments/assets/9d7fbcf8-5a47-47d7-ab6a-62c6a280e1ee" />
+
+<img width="956" height="725" alt="image" src="https://github.com/user-attachments/assets/10683e77-ae72-442d-8e3e-6cd0004586d8" />
 
 ---
 
@@ -37,7 +40,11 @@ Then use a **GitHub context variable** — print the commit SHA and the actor (w
 2. Create a second job that **reads that output** and prints it
 3. Pass the value using `outputs:` and `needs.<job>.outputs.<name>`
 
-Write in your notes: Why would you pass outputs between jobs?
+
+
+Que: Why would you pass outputs between jobs?
+
+Ans:
 
 ---
 
