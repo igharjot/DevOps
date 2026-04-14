@@ -5,10 +5,16 @@
 ### Task 1: GitHub Secrets
 1. Go to your repo → Settings → Secrets and Variables → Actions
 2. Create a secret called `MY_SECRET_MESSAGE`
-3. Create a workflow that reads it and prints: `The secret is set: true` (never print the actual value)
-4. Try to print `${{ secrets.MY_SECRET_MESSAGE }}` directly — what does GitHub show?
+3. Create a workflow that reads it and prints: `The secret is set: true`.
+4. Try to print `${{ secrets.MY_SECRET_MESSAGE }}` directly.
 
-Why should you never print secrets in CI logs?
+<img width="740" height="499" alt="image" src="https://github.com/user-attachments/assets/b59a0350-0a5b-4d27-a221-b113793c6bbd" />
+
+<img width="934" height="570" alt="image" src="https://github.com/user-attachments/assets/8ce253ba-66fa-428b-87f1-6eba1ed0ba6b" />
+
+Que: Why should you never print secrets in CI logs?
+
+Ans: One should never expose their sensitive information like secrets in the CI logs as it can be seen by anyone if the repository is public.
 
 ---
 
@@ -16,6 +22,12 @@ Why should you never print secrets in CI logs?
 1. Pass a secret to a step as an environment variable
 2. Use it in a shell command without ever hardcoding it
 3. Add `DOCKER_USERNAME` and `DOCKER_TOKEN` as secrets
+
+<img width="837" height="721" alt="image" src="https://github.com/user-attachments/assets/1f22ee90-11ff-4fb7-a017-101f2fd0feeb" />
+
+<img width="905" height="819" alt="image" src="https://github.com/user-attachments/assets/5de29ba1-c3b1-4cbf-b3dd-8e84c1804125" />
+
+<img width="610" height="473" alt="image" src="https://github.com/user-attachments/assets/597021d4-6428-446e-882d-5b76db210f89" />
 
 ---
 
