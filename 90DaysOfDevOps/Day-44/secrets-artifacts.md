@@ -32,11 +32,16 @@ Ans: One should never expose their sensitive information like secrets in the CI 
 ---
 
 ### Task 3: Upload Artifacts
-1. Create a step that generates a file — e.g., a test report or a log file
-2. Use `actions/upload-artifact` to save it
-3. After the workflow runs, download the artifact from the Actions tab
+1. Create a step that generates a file.
+2. Use `actions/upload-artifact` to save it.
+3. After the workflow runs, download the artifact from the Actions tab.
+
+<img width="867" height="629" alt="image" src="https://github.com/user-attachments/assets/a16af3d8-3b47-4248-bf7f-8d2c86e841e4" />
+
+<img width="922" height="819" alt="image" src="https://github.com/user-attachments/assets/4c55b8a8-7075-489f-b578-623e2ffe060d" />
 
 **Verify:** Can you see and download it from GitHub?
+<img width="1017" height="748" alt="image" src="https://github.com/user-attachments/assets/3e6a11f5-a36e-4e97-bd40-081941ed3b28" />
 
 ---
 
@@ -44,7 +49,15 @@ Ans: One should never expose their sensitive information like secrets in the CI 
 1. Job 1: generate a file and upload it as an artifact
 2. Job 2: download the artifact from Job 1 and use it (print its contents)
 
-When would you use artifacts in a real pipeline?
+<img width="852" height="788" alt="image" src="https://github.com/user-attachments/assets/d230f06d-1900-4b4a-8d5d-9ea9b7f95d04" />
+
+<img width="916" height="870" alt="image" src="https://github.com/user-attachments/assets/6072d7ef-1ebb-4dc7-8dc6-79de5db225c2" />
+
+<img width="912" height="868" alt="image" src="https://github.com/user-attachments/assets/5c4e0e1d-3e6f-4e55-895e-706670b906ce" />
+
+Que: When would you use artifacts in a real pipeline?
+
+Ans: Artifacts are used to download the desired files/logs from the github actions runner to our local machine.
 
 ---
 ### Task 5: Run Real Tests in CI
