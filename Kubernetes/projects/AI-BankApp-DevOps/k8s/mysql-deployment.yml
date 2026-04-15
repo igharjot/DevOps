@@ -6,6 +6,8 @@ metadata:
   labels:
     app: mysql
 spec:
+  strategy:
+    type: Recreate
   replicas: 1
   selector:
     matchLabels:
@@ -38,6 +40,11 @@ spec:
             - name: mysql-storage
               mountPath: /var/lib/mysql
 
+          readinessProbe:
+              exec:
+                command: ["mysqladmin", "ping", "-h", "localhost"]
+              initialDelaySeconds: 15
+              periodSeconds:     
       volumes:
         - name: mysql-storage
           persistentVolumeClaim:
