@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: bank-app
+  namespace: bank-app
+spec:
+  containers:
+  - name: bank-app
+    image: trainwithshubham/ai-bankapp:latest
+    ports:
+    - containerPort: 80
+
