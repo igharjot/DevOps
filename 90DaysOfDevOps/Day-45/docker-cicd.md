@@ -3,9 +3,11 @@
 ## Challenge Tasks
 
 ### Task 1: Prepare
-1. Use the app you Dockerized on Day 36 (or any simple Dockerfile)
-2. Add the Dockerfile to your `github-actions-practice` repo (or create a minimal one)
-3. Make sure `DOCKER_USERNAME` and `DOCKER_TOKEN` secrets are set from Day 44
+1. Use a simple Dockerfile
+2. Add the Dockerfile to your `github-actions-practice` repo
+3. Make sure `DOCKER_USERNAME` and `DOCKER_TOKEN` secrets are set from Day 44.
+
+<img width="724" height="588" alt="image" src="https://github.com/user-attachments/assets/8ed94f13-7695-4032-be58-96cea477a59b" />
 
 ---
 
@@ -15,7 +17,8 @@ Create `.github/workflows/docker-publish.yml` that:
 2. Checks out the code
 3. Builds the Docker image and tags it
 
-**Verify:** Check the build step logs — does the image build successfully?
+<img width="786" height="634" alt="image" src="https://github.com/user-attachments/assets/e9927869-18ef-4e08-b6e7-48c96e1c6d2d" />
+
 
 ---
 
