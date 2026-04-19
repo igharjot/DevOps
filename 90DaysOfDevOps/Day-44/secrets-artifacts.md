@@ -60,22 +60,39 @@ Que: When would you use artifacts in a real pipeline?
 Ans: Artifacts are used to download the desired files/logs from the github actions runner to our local machine.
 
 ---
+
 ### Task 5: Run Real Tests in CI
-Take any script from your earlier days (Python or Shell) and run it in CI:
-1. Add your script to the `github-actions-practice` repo
+Take a shell script and run it in CI:
+1. Add script to the `github-actions-practice` repo
 2. Write a workflow that:
    - Checks out the code
    - Installs any dependencies needed
    - Runs the script
    - Fails the pipeline if the script exits with a non-zero code
-3. Intentionally break the script — verify the pipeline goes red
-4. Fix it — verify it goes green again
+
+<img width="1089" height="877" alt="image" src="https://github.com/user-attachments/assets/d069fdf6-1859-4e69-a8f8-ad4aaf20054f" />
+
+<img width="936" height="875" alt="image" src="https://github.com/user-attachments/assets/8778a0c4-ee56-4ca9-8623-4054709395f6" />
+
+<img width="927" height="857" alt="image" src="https://github.com/user-attachments/assets/6914abfb-b0ef-42b0-8f85-16da7e6620cb" />
 
 ---
 
 ### Task 6: Caching
 1. Add `actions/cache` to a workflow that installs dependencies
-2. Run it twice — observe the time difference
-3. Write in your notes: What is being cached and where is it stored?
+2. What is being cached and where is it stored?
+
+Ans. The folder 'node_modules/' - which contains all packages installed by npm install/npm ci is being cached.
+
+The cached folder is being stored in the GitHub's own cache storage servers, tied to the repository. It is not stored in the repo or on the runner's disk permanently.
+
+- Each repo gets 10 GB of free cache storage on GitHub.
+- Caches are scoped to a branch - PRs can access the base branch's cache but not other PRs' caches.
+- A cache entry expires after 7 days of not being accessed.
+- When the 10 GB limit is hit, GitHub evicts the oldest/least-used caches automatically.
+
+<img width="978" height="810" alt="image" src="https://github.com/user-attachments/assets/f28dcbb3-bb49-4c73-b5af-6f314ed16aef" />
+
+<img width="920" height="840" alt="image" src="https://github.com/user-attachments/assets/64623f42-efaa-409d-8ac6-8f19a2195d21" />
 
 ---
