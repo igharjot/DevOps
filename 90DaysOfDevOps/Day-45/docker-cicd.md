@@ -19,7 +19,6 @@ Create `.github/workflows/docker-publish.yml` that:
 
 <img width="786" height="634" alt="image" src="https://github.com/user-attachments/assets/e9927869-18ef-4e08-b6e7-48c96e1c6d2d" />
 
-
 ---
 
 ### Task 3: Push to Docker Hub
@@ -28,14 +27,18 @@ Add steps to:
 2. Tag the image as `username/repo:latest` and also `username/repo:sha-<short-commit-hash>`
 3. Push both tags
 
-**Verify:** Go to Docker Hub — is your image there with both tags?
+<img width="952" height="756" alt="image" src="https://github.com/user-attachments/assets/8c113e65-6c7d-4ba0-b842-1d850a12f26b" />
+
+**Verify:**
+
+<img width="922" height="626" alt="image" src="https://github.com/user-attachments/assets/fca90f5b-f9fa-4881-bfc9-7f5595dc6bc6" />
 
 ---
 
 ### Task 4: Only Push on Main
 Add a condition so the push step only runs on the `main` branch — not on feature branches or PRs.
 
-Test it: push to a feature branch and verify the image is built but NOT pushed.
+<img width="722" height="623" alt="image" src="https://github.com/user-attachments/assets/fca14a59-758d-45ae-be5f-10ae3116f92d" />
 
 ---
 
@@ -44,13 +47,12 @@ Test it: push to a feature branch and verify the image is built but NOT pushed.
 2. Add it to your `README.md`
 3. Push — the badge should show green
 
+
 ---
 
 ### Task 6: Pull and Run It
 1. On your local machine (or a cloud server), pull the image you just pushed
 2. Run it
 3. Confirm it works
-
-Write in your notes: What is the full journey from `git push` to a running container?
 
 ---
