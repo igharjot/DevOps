@@ -7,7 +7,7 @@
 2. Add the Dockerfile to your `github-actions-practice` repo
 3. Make sure `DOCKER_USERNAME` and `DOCKER_TOKEN` secrets are set from Day 44.
 
-<img width="724" height="588" alt="image" src="https://github.com/user-attachments/assets/8ed94f13-7695-4032-be58-96cea477a59b" />
+<img width="462" height="409" alt="image" src="https://github.com/user-attachments/assets/77bd0530-2f80-472b-b5ed-ea7c993968e5" />
 
 ---
 
