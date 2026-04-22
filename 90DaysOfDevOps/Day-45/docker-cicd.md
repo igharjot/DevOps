@@ -45,8 +45,9 @@ Add a condition so the push step only runs on the `main` branch — not on featu
 ### Task 5: Add a Status Badge
 1. Get the badge URL for your `docker-publish` workflow from the Actions tab
 2. Add it to your `README.md`
-3. Push — the badge should show green
+3. Push - the badge should show green
 
+<img width="613" height="616" alt="image" src="https://github.com/user-attachments/assets/30455ca3-57e6-42cc-afeb-0233c814ce22" />
 
 ---
 
@@ -54,5 +55,7 @@ Add a condition so the push step only runs on the `main` branch — not on featu
 1. On your local machine (or a cloud server), pull the image you just pushed
 2. Run it
 3. Confirm it works
+
+<img width="1338" height="735" alt="image" src="https://github.com/user-attachments/assets/5baea913-8990-4b4e-bfc3-a8fc2b336b54" />
 
 ---
