@@ -112,7 +112,14 @@ Create a **custom composite action** in your repo at `.github/actions/setup-and-
    - Set an output called `greeted` with value `true`
 3. Use the composite action in a new workflow with `uses: ./.github/actions/setup-and-greet`
 
-**Verify:** Does your custom action run and print the greeting?
+<img width="959" height="969" alt="image" src="https://github.com/user-attachments/assets/e7f2c7ee-a13c-4fba-8571-ac30a8f36812" />
+
+<img width="830" height="775" alt="image" src="https://github.com/user-attachments/assets/edcbc9bf-e258-4d7b-9669-f5fbf08b248d" />
+
+**Verify:**
+
+<img width="915" height="831" alt="image" src="https://github.com/user-attachments/assets/c2342c80-a1ec-4986-868b-d3c1802a1da9" />
+
 
 ---
 
