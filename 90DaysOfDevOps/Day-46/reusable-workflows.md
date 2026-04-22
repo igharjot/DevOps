@@ -92,7 +92,14 @@ Extend `reusable-build.yml`:
    - Depends on the build job (`needs:`)
    - Reads and prints the `build_version` output
 
-**Verify:** Does the second job print the version from the reusable workflow?
+<img width="792" height="833" alt="image" src="https://github.com/user-attachments/assets/37b965ce-001d-4c88-b3ec-faebab35d60d" />
+
+<img width="785" height="514" alt="image" src="https://github.com/user-attachments/assets/782876c4-9ff8-49af-be55-7645847df357" />
+
+**Verify:**
+<img width="913" height="822" alt="image" src="https://github.com/user-attachments/assets/bd886a90-d1e1-41ff-b290-dcd2e61b723f" />
+
+<img width="946" height="541" alt="image" src="https://github.com/user-attachments/assets/3e8547e5-3029-4946-afe3-d8c2a8212ef0" />
 
 ---
 
@@ -111,13 +118,13 @@ Create a **custom composite action** in your repo at `.github/actions/setup-and-
 
 ### Task 6: Reusable Workflow vs Composite Action
 
-|                              | Reusable Workflow | Composite Action  |
-|------------------------------|-------------------|-------------------|
-| Triggered by                 | `workflow_call`   | `uses:` in a step |
-| Can contain jobs?            | ?                 | ?                 |
-| Can contain multiple steps?  | ?                 | ?                 |
-| Lives where?                 | ?                 | ?                 |
-| Can accept secrets directly? | ?                 | ?                 |
-| Best for                     | ?                 | ?                 |
+|                              |             Reusable Workflow          | Composite Action                 |
+|------------------------------|----------------------------------------|----------------------------------|
+| Triggered by                 | `workflow_call`                        | `uses:` in a step                |
+| Can contain jobs?            | Yes                                    | No                               |
+| Can contain multiple steps?  | Yes(per job)                           | Yes                              |
+| Lives where?                 | .github/workflows/*.yml                | root action.yml                  |
+| Can accept secrets directly? | Yes, via secrets:                      | No, must be passed as inputs:    |
+| Best for                     | Full pipelines (build → test → deploy) | Reusable step logic within a job |
 
 ---
