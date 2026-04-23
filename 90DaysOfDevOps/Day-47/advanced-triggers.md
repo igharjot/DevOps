@@ -44,14 +44,22 @@ Create `.github/workflows/scheduled-tasks.yml`:
 1. Add a `schedule` trigger with cron: `'30 2 * * 1'` (every Monday at 2:30 AM UTC)
 2. Add **another** cron entry: `'0 */6 * * *'` (every 6 hours)
 3. In the job, print which schedule triggered using `${{ github.event.schedule }}`
-4. Add a step that acts as a **health check** — curl a URL and check the response code
+4. Add a step that acts as a **health check** - curl a URL and check the response code
 
 Write in your notes:
-- The cron expression for: every weekday at 9 AM IST
-- The cron expression for: first day of every month at midnight
-- Why GitHub says scheduled workflows may be delayed or skipped on inactive repos
+- The cron expression for: every weekday at 9 AM IST : `30 3 * * 1-5`
+- The cron expression for: first day of every month at midnight : `0 0 1 * *`
+- Why GitHub says scheduled workflows may be delayed or skipped on inactive repos?
 
-**Important:** Also add `workflow_dispatch` so you can test it manually without waiting for the schedule.
+Ans: GitHub runs scheduled workflows on shared infrastructure across millions of repos. During high-load periods, jobs are queued and run when capacity is available - there is no SLA on exact execution time. Delays of 15–60 minutes are common.
+
+More critically: if a public repo has had no activity for 60 days, GitHub automatically disables its scheduled workflows entirely to conserve resources. 
+
+**Important:** Also add `workflow_dispatch`.
+
+<img width="871" height="705" alt="image" src="https://github.com/user-attachments/assets/38fb4191-58db-4553-89a5-46655166da95" />
+
+<img width="937" height="673" alt="image" src="https://github.com/user-attachments/assets/5864ead5-0d8d-4754-ad65-bcb59feb17ef" />
 
 ---
 
@@ -74,7 +82,17 @@ Create `.github/workflows/smart-triggers.yml`:
 3. Add branch filters to only trigger on `main` and `release/*` branches
 4. Test it: push a change to a `.md` file — does the workflow skip?
 
-Write in your notes: When would you use `paths` vs `paths-ignore`?
+<img width="717" height="428" alt="image" src="https://github.com/user-attachments/assets/89f922a1-1d49-4930-9096-8b54135c6080" />
+
+<img width="679" height="448" alt="image" src="https://github.com/user-attachments/assets/552918df-9d7b-468e-96ab-8bb040a2c6d5" />
+
+<img width="943" height="682" alt="image" src="https://github.com/user-attachments/assets/dba3c1d7-83cc-4214-b37b-0c800a8ad172" />
+
+*Que.* When would you use `paths` vs `paths-ignore`?
+
+*Ans.* When only a few dirs should trigger the workflow, 'paths:' should be used.
+
+When almost everything should trigger, except a few dirs; 'paths-ignore:' should be used.
 
 ---
 
@@ -92,7 +110,16 @@ Create two workflows:
    - Only proceed if the triggering workflow **succeeded** (`${{ github.event.workflow_run.conclusion == 'success' }}`)
    - Print a warning and exit if it failed
 
-**Verify:** Push a commit — does the test workflow run first, then trigger the deploy workflow?
+<img width="661" height="502" alt="image" src="https://github.com/user-attachments/assets/1f46af1d-19ef-4f3a-95fe-8b8dd8577261" />
+
+<img width="904" height="760" alt="image" src="https://github.com/user-attachments/assets/583ff193-b78b-441f-9946-29705acaa808" />
+
+**Verify:**
+-
+
+<img width="921" height="702" alt="image" src="https://github.com/user-attachments/assets/5b7bafa3-32be-4df4-9b25-f39f2b718fd7" />
+
+<img width="926" height="773" alt="image" src="https://github.com/user-attachments/assets/dd209bdd-c997-4bf7-a151-d0b7beeb63bd" />
 
 ---
 
