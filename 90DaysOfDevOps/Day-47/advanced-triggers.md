@@ -127,13 +127,33 @@ Create two workflows:
 1. Create `.github/workflows/external-trigger.yml` with trigger `repository_dispatch`
 2. Set it to respond to event type: `deploy-request`
 3. Print the client payload: `${{ github.event.client_payload.environment }}`
-4. Trigger it using `curl` or `gh`:
-   ```bash
-   gh api repos/<owner>/<repo>/dispatches \
-     -f event_type=deploy-request \
-     -f client_payload='{"environment":"production"}'
-   ```
+4. Trigger it using ` Invoke-RestMethod` :
+```bash
+  Invoke-RestMethod `
+  -Method POST `
+  -Uri "https://api.github.com/repos/<owner>/<repo>/dispatches" `
+  -Headers @{
+    "Authorization" = "Bearer <your_token>"
+    "Accept"        = "application/vnd.github+json"
+  } `
+  -ContentType "application/json" `
+  -Body '{"event_type":"deploy-request","client_payload":{"environment":"production"}}'
+  
+```
 
-Write in your notes: When would an external system (like a Slack bot or monitoring tool) trigger a pipeline?
+<img width="1858" height="945" alt="image" src="https://github.com/user-attachments/assets/fcaec351-acdf-43a3-bc59-20b6608fde42" />
+
+-
+
+*Que.* When would an external system (like a Slack bot or monitoring tool) trigger a pipeline?
+
+*Ans.* When a git event (push/PR) isn't the trigger - instead, something external decides when the pipeline should run:
+
+- Slack bot — /deploy production triggers a workflow
+- Monitoring tool — Datadog detects errors → triggers auto-rollback
+- External CI — Jenkins finishes a build → hands off to GitHub Actions
+- Precise scheduling — AWS EventBridge fires at exact times (more reliable than GitHub's schedule)
+- Third-party webhook — CMS publishes content → triggers a build
+
 
 ---
