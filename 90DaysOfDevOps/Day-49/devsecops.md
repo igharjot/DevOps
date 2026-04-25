@@ -1,4 +1,3 @@
-
 # Day 49 – DevSecOps: Add Security to Your CI/CD Pipeline
 
 ## Challenge Tasks
