@@ -56,37 +56,6 @@ Add this to your **PR pipeline** (not the main pipeline):
     fail-on-severity: critical
 ```
 
-This checks any **new** dependencies added in the PR against a vulnerability database. If a dependency has a critical CVE, the PR check fails.
-
-Test it:
-1. Open a PR that adds a package to your app
-2. Check the Actions tab — did the dependency review run?
-
-**Verify:** Does the dependency review show up as a check on your PR?
-
----
-
-### Task 4: Add Permissions to Your Workflows
-By default, workflows get broad permissions. Lock them down.
-
-Add this block near the top of your workflow files (after `on:`):
-```yaml
-permissions:
-  contents: read
-```
-
-If a workflow needs to comment on PRs, add:
-```yaml
-permissions:
-  contents: read
-  pull-requests: write
-```
-
-Update at least 2 of your existing workflow files with a `permissions` block.
-
-Write in your notes: Why is it a good practice to limit workflow permissions? What could go wrong if a compromised action has write access to your repo?
-
----
 
 ### Task 5: See the Full Secure Pipeline
 Look at what your pipeline does now:
