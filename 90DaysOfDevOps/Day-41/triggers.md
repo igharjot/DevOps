@@ -77,6 +77,7 @@ Then extend the matrix to also include 2 operating systems.
 <img width="929" height="873" alt="image" src="https://github.com/user-attachments/assets/c9566849-8233-4c42-aa72-79967e90269e" />
 
 3. What does `fail-fast: true` (the default) do vs `false`?
+
 Ans.
 
 *fail-fast: true (default)*
